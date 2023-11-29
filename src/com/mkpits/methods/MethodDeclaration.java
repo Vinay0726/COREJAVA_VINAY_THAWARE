@@ -39,12 +39,12 @@ public class MethodDeclaration {
 
 	public static void getGender() {
 		String myGender="Male";
-		System.out.println("Password:"+myGender);
+		System.out.println("Gender:"+myGender);
 		
 	}
 
 	public static void getMobile() {
-		String myMobile="9373007087";
+		long myMobile=9373007087L;
 		System.out.println("Mobile:"+myMobile);
 		
 	}
