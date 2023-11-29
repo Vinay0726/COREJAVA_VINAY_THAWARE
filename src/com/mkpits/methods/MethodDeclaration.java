@@ -4,6 +4,7 @@ public class MethodDeclaration {
       
 	public static void main(String[] args) {
 //		Direct Access
+//		method();
 		getFirstName();
 		getLastName();
 		getEmail();
