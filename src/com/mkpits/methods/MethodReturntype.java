@@ -1,12 +1,15 @@
 package com.mkpits.methods;
 
 public class MethodReturntype {
-
+// method with returntype & no arguement
 	public static void main(String[] args) {
 		
 		MethodReturntype test=new MethodReturntype();
-		
+//		non static we can call with use of objref
+//		static main can easily call static method
 		System.out.println("First Name:"+test.getFirstName());
+//      new variable assign to hold value
+		String lName=test.getLastName();g
 		System.out.println("Last Name:"+test.getLastName());
 		System.out.println("Email:"+test.getEmail());
 		System.out.println("Mobile:"+test.getMobile());
@@ -36,7 +39,7 @@ public class MethodReturntype {
 		return myEmail;
 	}
 
-	public String getLastName() {
+	public static String getLastName() {
 		String myLastName="Thaware";
 		return myLastName;
 	}
