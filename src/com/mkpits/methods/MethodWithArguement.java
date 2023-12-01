@@ -1,13 +1,13 @@
 package com.mkpits.methods;
 
 public class MethodWithArguement {
-
+// method with arguement with no return type
 	public static void main(String[] args) {
 	 String fName="Vinay";
 	 String lName="Thaware";
 	 String email="Vinay@123";
 	 String gender="male";
-	 long myMobile=9373007087l;
+	 long mobile=9373007087l;
 	 String password="Vinay@123";
 	 
 	 MethodWithArguement m=new MethodWithArguement();

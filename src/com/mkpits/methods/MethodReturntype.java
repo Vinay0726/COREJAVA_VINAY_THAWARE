@@ -9,7 +9,7 @@ public class MethodReturntype {
 //		static main can easily call static method
 		System.out.println("First Name:"+test.getFirstName());
 //      new variable assign to hold value
-		String lName=test.getLastName();g
+		String lName=test.getLastName();
 		System.out.println("Last Name:"+test.getLastName());
 		System.out.println("Email:"+test.getEmail());
 		System.out.println("Mobile:"+test.getMobile());
