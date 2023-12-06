@@ -17,13 +17,13 @@ public class MethodAll4types {
 	    m.getPincode(pincode);
 //	 4)Argument with Return type
 	    
-	    String rUser=m.getUser("1","Vinay");
+	    String rUser=m.getUser("1 ","Vinay");
 	    System.out.println(rUser);
 	    
 	}
 //	4)Argument with Return type
         public String getUser(String id,String name) {
-		System.out.println("Id:"+id+"Name"+name);
+        	System.out.println("Id:"+id+", Name"+name);
 		return id+name;
 	}	
 		
@@ -42,7 +42,7 @@ public class MethodAll4types {
 	}
 
 // 1)No Return type & No Arguement
-	    public  void getName() {
+	    public static void getName() {
 		String name="Vinay Thaware";
 		System.out.println("Name:"+name);
 		
