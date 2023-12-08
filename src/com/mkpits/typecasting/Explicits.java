@@ -5,6 +5,7 @@ public class Explicits {
 	public static void main(String[] args) {
 // 1) Typecasting between primitive to primitive
 // datatype variable=(datatype)variable/ or expression
+		System.out.println("Type Casting primitive to primitive :-");
 		long mobile=8282929928l;
 		int newMobile=(int)mobile;
 		System.out.println("long to int:"+newMobile);
@@ -20,7 +21,7 @@ public class Explicits {
 		
 		
 // 2)Typecasting between object to primitive
-		
+		System.out.println("Type Casting object to primitive :-");
 		String price="8288";
 		int myPrice=Integer.parseInt(price);
 		System.out.println("PRICE:"+myPrice);
@@ -30,7 +31,7 @@ public class Explicits {
 		
 		
 // 3)Typecasting primitive to object
-	
+	System.out.println("Type Casting primitive to object :-");
     int pinCode=440013;
     Integer p=new Integer(pinCode);
     System.out.println(p);
