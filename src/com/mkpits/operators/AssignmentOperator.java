@@ -1,7 +1,8 @@
 package com.mkpits.operators;
 
 public class AssignmentOperator {
-// Assignment Operator x+=y=x+y;x-=y,x*=y,x/=y,x==y;
+// Assignment Operator +=,-=,*=,%=,/=
+	//x+=y=x+y;x-=y,x*=y,x/=y,x==y;
 //	                  int x=5 x+=15 =x+y 5+15
 	public static void main(String[] args) {
 		AssignmentOperator assign=new AssignmentOperator();

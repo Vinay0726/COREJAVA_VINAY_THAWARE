@@ -2,6 +2,7 @@ package com.mkpits.operators;
 
 public class ArithmeticOperator {
 //    Arthmetic operator +,-,*,/
+	//binary operator
 //	  Two operands to operate
 //	x+y(x & y are operands)
 	public static void main(String[] args) {
