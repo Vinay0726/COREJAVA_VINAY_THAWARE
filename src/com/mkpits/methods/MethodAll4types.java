@@ -1,7 +1,5 @@
 package com.mkpits.methods;
 
-import com.mkpits.userdefined.StaticVariableClass1;
-
 public class MethodAll4types {
 
 	public static void main(String[] args) {
@@ -23,7 +21,7 @@ public class MethodAll4types {
 	}
 //	4)Argument with Return type
         public String getUser(String id,String name) {
-        	System.out.println("Id:"+id+", Name"+name);
+        	System.out.println("Id:"+id+", Name:"+name);
 		return id+name;
 	}	
 		

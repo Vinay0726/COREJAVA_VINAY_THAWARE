@@ -3,7 +3,7 @@ package com.mkpits.methods;
 public class MethodWithArguement {
 // method with arguement with no return type
 	public static void main(String[] args) {
-	 String fName="Vinay";
+	 
 	 String lName="Thaware";
 	 String email="Vinay@123";
 	 String gender="male";
@@ -13,7 +13,7 @@ public class MethodWithArguement {
 	 MethodWithArguement m=new MethodWithArguement();
 //	 calling method
 //	 (arguement) pass
-	 m.getfirstName(fName);
+	 m.getfirstName("Vinay");
 	 m.getlastName(lName);
 	 m.getmyEmail(email);
 	 m.getmyGender(gender);
