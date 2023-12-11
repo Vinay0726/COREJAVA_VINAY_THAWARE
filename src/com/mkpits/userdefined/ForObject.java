@@ -7,5 +7,6 @@ public class ForObject {
 		 ForObject Test = new ForObject();
 //		 class.variable
 		System.out.println(ForObject.pinCode);
+		
 	}
 }

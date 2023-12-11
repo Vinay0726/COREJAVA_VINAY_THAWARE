@@ -1,4 +1,7 @@
 package com.mkpits.constructor;
+//constructor is special method with having same name as class
+//its not have return type
+//it have different arguement we can change sequence of arguement
 
 public class ConstructorObject {
     int id,pincode;
@@ -33,10 +36,10 @@ public class ConstructorObject {
 	}
 
 
-	public ConstructorObject(ConstructorObject obj) {
+	public ConstructorObject(ConstructorObject o) {
 		System.out.println("Constructor with Object");
-		id=obj.id;
-		pincode=obj.pincode;
+		id=o.id;
+		pincode=o.pincode;
 	}
 	
 }
