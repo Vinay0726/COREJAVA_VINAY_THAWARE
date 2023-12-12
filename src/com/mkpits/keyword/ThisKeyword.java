@@ -1,10 +1,12 @@
 package com.mkpits.keyword;
 
 public class ThisKeyword {
+	//its is a global variable it can access everywhere or another class
+	//with using thiskeyword local variable value assign to the global variable
     String name,email,password;
     int num1,num2;
     
-	//Thiskeyword refer as a current classes variable
+	//This keyword refer as a current classes variable
     //non static value assign by using this keyword
 	public static void main(String[] args) {
 		
