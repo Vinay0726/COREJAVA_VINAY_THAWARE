@@ -10,9 +10,11 @@ public class ForFibonancii {
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter a Number :-");
 		int n=Integer.parseInt(br.readLine());
-		int num1=0,num2=1;
-		for(int i=0;i<=n;i++) {
-			int fibo = num1+num2;
+		
+		int fibo,num1 = 0,num2 = 1;
+		System.out.println(+num1+"\n"+num2);
+		for(int i = 0;i<=n;i++) {
+			fibo = num1+num2;
 			System.out.println(fibo);
 			num1=num2;
 			num2=fibo;

@@ -15,7 +15,8 @@ public class ForLoop {
 			fact=fact*i;
 			System.out.println(fact);
 		}
-
+		
+	
 		
 	}
 

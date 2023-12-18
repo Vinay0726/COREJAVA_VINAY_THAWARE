@@ -16,9 +16,8 @@ public class IterativeRepetativeCfs {
 		while(num<10) {
         num++;
         System.out.println(num);
-	    }
+		}
 		
-		//block of code then
 		
 }
 }
