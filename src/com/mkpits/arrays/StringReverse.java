@@ -8,6 +8,7 @@ public class StringReverse {
 		char ch[]=new char[name.length()];
 		
 		for (int i = 0; i < ch.length; i++) {
+			//for get charater
 			ch[i]=name.charAt(i);
 			
 		}for (char c : ch) {
