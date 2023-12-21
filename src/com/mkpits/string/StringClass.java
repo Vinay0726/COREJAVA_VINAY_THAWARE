@@ -2,6 +2,9 @@ package com.mkpits.string;
 
 public class StringClass {
 
+	//String is immutable-if value enter not change value(not modified)
+	//Data loss 
+	//capacity 16 character
 	public static void main(String[] args) {
 		StringClass s = new StringClass();
 		s.stringMethod();
@@ -17,6 +20,7 @@ public class StringClass {
 		String fName="VINAY";
 		String lName="Thaware";
 		String vName="";
+		String uName="Vinay thaware    ";
 		String nName="vinay";
         //for uppercase & lower case
 		System.out.println(lName.toUpperCase());
@@ -25,7 +29,8 @@ public class StringClass {
 		System.out.println(fName.replace('N', 'J'));
 		//replace all
 		System.out.println(fName.replaceAll(fName,"vijay"));
-	
+		//repeat(count) for how many time we have to repeat
+		System.out.println(fName.repeat(3));
 		System.out.println(nName.codePointAt(1));
 		//String.join(delimiter,string1,string2)
 		//Delimeter is a special chain in a middle like @,#,$,%,!,*
@@ -51,7 +56,8 @@ public class StringClass {
 		System.out.println(fName.length());
 		System.out.println(vName.isBlank());
 		System.out.println(vName.isEmpty());
-		System.out.println(fName.trim()+"THAWARE");
+		//white spaces remove
+		System.out.println(uName.trim());
 		
 	}
 	    public void stringConstructor() {
