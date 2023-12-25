@@ -7,7 +7,7 @@ public class SingleInheritance {
 //The sub class can access the attributes & method of its own as well as attributes & method of its Super Class
 	public static void main(String[] args) {
 		SubDemo call=new SubDemo();
-		call.getNumber(20, 15);
+		call.getAdd(20, 15);
 		call.getSub();
 		
 
