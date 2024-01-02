@@ -17,8 +17,6 @@ public class Explicits {
 		short uNum=(short)lastNum;
 		System.out.println("short to short:"+uNum);
 		
-		74i1g
-		
 		
 // 2)Typecasting between object to primitive
 		System.out.println("Type Casting object to primitive :-");

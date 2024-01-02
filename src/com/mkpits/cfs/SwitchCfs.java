@@ -138,7 +138,14 @@ public class SwitchCfs {
 		gender=br.readLine();
 		
 		System.out.println("Enter Mobile number:-");
+		while(true) {
 		mobile=br.readLine();
+		if (!mobile.matches("\\d+")||mobile.length()!=10||mobile.isEmpty()) {
+		    System.out.println("Invalid Mobile Number!! Please enter only digits.");
+		    continue;
+		}
+		break;
+		}
 		
 		System.out.println("Enter your Email:-");
 		email=br.readLine();
@@ -153,7 +160,7 @@ public class SwitchCfs {
 		if(!matcher.matches()) {
 			System.out.println("Email invalid");
 		}
-		
+	
 		
 		System.out.println("Enter Current Amount:-");
 		cMoney=Float.parseFloat(br.readLine());

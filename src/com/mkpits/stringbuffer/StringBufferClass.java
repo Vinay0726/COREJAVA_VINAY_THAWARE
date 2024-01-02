@@ -61,15 +61,6 @@ public class StringBufferClass {
 		StringBuffer num2=new StringBuffer(3);
 		System.out.println(num2);
 		StringBuffer num3=new StringBuffer(num);
-		System.out.println(num3);
-		
-		
-		
-		
-		
-	}
-
-
-		
-
+		System.out.println(num3);		
+	}	
 }

@@ -14,6 +14,7 @@ public class ForFibonancii {
 		int fibo,num1 = 0,num2 = 1;
 		System.out.println(+num1+"\n"+num2);
 		for(int i = 0;i<=n;i++) {
+			
 			fibo = num1+num2;
 			System.out.println(fibo);
 			num1=num2;
