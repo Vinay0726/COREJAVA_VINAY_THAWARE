@@ -12,6 +12,6 @@ public class FindingSecondLargest {
 			System.out.println(num[index]);
 		}
 		
-		System.out.println("Last highest value: " + num[num.length - 2]);
+		System.out.println("Last second highest value: " + num[num.length - 2]);
 		}
 }
