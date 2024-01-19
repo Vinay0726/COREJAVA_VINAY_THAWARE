@@ -17,8 +17,8 @@ public class ArrayListMethod {
 		}
 		
 		ArrayList<String> colorList1=new ArrayList<String>();
-		colorList1.add("Voilet");
 		colorList1.add("Red");
+		colorList1.add("Voilet");
 		colorList1.add("Green");
 		colorList1.add("White");
 		for (String color : colorList1) {
@@ -33,22 +33,25 @@ public class ArrayListMethod {
 			System.out.println(color);
 		}
 		
-//		System.out.println("Remove All...");
-//		colorList.removeAll(colorList1);
-//		//After Removing all remove same name also
-//		System.out.println("Size after Remove all:-"+colorList.size());
+		System.out.println("Remove All...");
+		colorList.removeAll(colorList1);
+		//After Removing all remove same name also
+		System.out.println("Size after Remove all:-"+colorList.size());
+		for (String color : colorList) {
+			System.out.println(color);
+		} 
+//		System.out.println("Retain All...");
+//		colorList.retainAll(colorList1);
+//		//Same name add  with second arrayList
+//		System.out.println("Size after Retain all:-"+colorList.size());
 //		for (String color : colorList) {
 //			System.out.println(color);
 //		}
 		
-		System.out.println("Retain All...");
-		colorList.retainAll(colorList1);
-		//Same name add with second arrayList
-		System.out.println("Size after Retain all:-"+colorList.size());
-		for (String color : colorList) {
-			System.out.println(color);
-		}
-
+		
+       //Clear-->Clear All Element In List
+		colorList.clear();
+		System.out.println(colorList);
 	}
 
 }

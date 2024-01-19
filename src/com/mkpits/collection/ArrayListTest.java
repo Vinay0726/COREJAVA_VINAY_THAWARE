@@ -7,7 +7,7 @@ import java.util.List;
 public class ArrayListTest {
 
 	public static void main(String[] args) {
-	//Generic version--No Bounded in any Datatype...
+	//Generic version--No Bounded in any Datatype//<> use...
 	//Use Wrapper Class
 		List<String> list=new ArrayList<String>();
 		list.add("Vinay");
@@ -18,7 +18,8 @@ public class ArrayListTest {
 		
 		System.out.println("Using For Loop -->");
 		for (int i = 0; i < list.size(); i++) {	
-			System.out.println(list.get(i));	
+
+
 		}
 		
 		System.out.println("Using For-Each Loop -->");
